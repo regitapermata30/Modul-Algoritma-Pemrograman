@@ -54,3 +54,43 @@ Contoh algoritma di kehidupan sehari-hari adalah **mesin penjual otomatis (vendi
 
 Algoritma mesin penjual otomatis ini adalah contoh sederhana dari bagaimana input (uang/koin dan pilihan produk), proses (pengecekan uang, pemilihan produk, dan pengeluaran produk), dan output (produk atau kembalian) bekerja bersama untuk menyediakan layanan yang diinginkan oleh pengguna.
 
+Ciri-ciri algoritma yang baik adalah:
+
+1. **Ketepatan (Precision)**: Algoritma harus memberikan hasil yang akurat dan sesuai dengan yang diharapkan. Hasilnya harus benar dan relevan dengan masalah yang sedang dipecahkan.
+
+2. **Efisiensi (Efficiency)**: Algoritma harus dirancang untuk bekerja dengan cepat dan menggunakan sumber daya yang efisien, seperti waktu dan memori. Ini penting untuk menangani masalah dengan efisien bahkan pada skala besar.
+
+3. **Kemudahan dipahami (Clarity)**: Algoritma harus ditulis dengan cara yang mudah dimengerti oleh manusia. Ini membantu dalam pemahaman, pemeliharaan, dan debugging algoritma oleh pengembang atau orang lain yang bekerja dengannya.
+
+4. **Reusabilitas (Reusability)**: Algoritma yang baik dapat digunakan kembali dalam berbagai konteks atau dapat diintegrasikan ke dalam berbagai program. Ini meningkatkan efisiensi pengembangan perangkat lunak.
+
+5. **Fleksibilitas (Flexibility)**: Algoritma sebaiknya dapat mengatasi berbagai situasi dan masalah yang berbeda. Mereka harus dapat diadaptasi dengan mudah jika perubahan diperlukan.
+
+6. **Terbukti (Proven)**: Algoritma yang baik memiliki dasar matematis atau pengujian empiris yang mendukung keandalannya. Ini berarti telah dibuktikan bahwa algoritma tersebut akan memberikan hasil yang benar dalam semua situasi yang sesuai.
+
+7. **Memiliki langkah-langkah terdefinisi (Well-Defined Steps)**: Algoritma harus memiliki langkah-langkah yang jelas dan terdefinisi dengan baik, sehingga tidak ada ambiguitas dalam pelaksanaan mereka.
+
+8. **Efisien dalam Penggunaan Memori (Memory Efficiency)**: Algoritma sebaiknya tidak menghabiskan terlalu banyak memori yang tidak perlu. Mereka harus mengelola penggunaan memori dengan baik.
+
+9. **Terstruktur (Structured)**: Algoritma yang baik memiliki struktur yang baik dan terorganisir dengan baik. Ini membantu dalam pemahaman algoritma dan memungkinkan untuk mengidentifikasi bagian-bagian yang dapat dioptimalkan atau diperbaiki.
+
+10. **Dapat diimplementasikan (Implementable)**: Algoritma harus dapat diimplementasikan dalam bahasa pemrograman yang sesuai dengan sumber daya yang tersedia.
+
+11. **Dapat Diuji (Testable)**: Algoritma harus dapat diuji dengan mudah untuk memverifikasi kebenaran hasilnya dan untuk mendeteksi kesalahan atau masalah potensial.
+
+12. **Sederhana (Simplicity)**: Kekompleksan yang tidak perlu harus dihindari. Algoritma yang sederhana lebih mudah dipahami, dipelihara, dan diperbaiki.
+
+Memiliki algoritma yang memenuhi ciri-ciri ini sangat penting dalam pengembangan perangkat lunak yang efektif dan handal.
+
+## 1.2 Penyajian Algoritma
+
+Penyajian algoritma terbagi menjadi 
+* Deskriptif
+* Flowchart
+* Pseudocode
+* Syntac
+
+1. Deskriptif
+* Penyajian deskriptif adalah penjelasan naratif atau dalam bentuk teks tentang bagaimana algoritma berfungsi.
+* Ini sering digunakan dalam bahasa manusia yang mudah dipahami dan diikuti oleh pengembang atau pembaca algoritma.
+* Deskripsi langkah demi langkah algoritma diberikan dalam bahasa alami atau bahasa pemrograman yang mudah dipahami.
