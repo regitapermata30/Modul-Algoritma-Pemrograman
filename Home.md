@@ -90,7 +90,102 @@ Penyajian algoritma terbagi menjadi
 * Pseudocode
 * Syntac
 
-1. Deskriptif
+**1. Deskriptif**
 * Penyajian deskriptif adalah penjelasan naratif atau dalam bentuk teks tentang bagaimana algoritma berfungsi.
 * Ini sering digunakan dalam bahasa manusia yang mudah dipahami dan diikuti oleh pengembang atau pembaca algoritma.
 * Deskripsi langkah demi langkah algoritma diberikan dalam bahasa alami atau bahasa pemrograman yang mudah dipahami.
+
+Sebagai contoh misalnya algoritma menentukan bilangan terbesar dari 3 bilangan berikut ini:
+Algoritma Menentukan_bilangan_terbesar_dari_3_bilangan :
+
+1. Meminta input 3 bilangan dari user, misalkan bilangan a, b, dan c.
+2. Apabila bilangan a lebih besar dari b maupun c, maka bilangan a
+merupakan bilangan terbesar
+3. Jika tidak (bilangan a tidak lebih besar dari b atau c) berarti bilangan a
+sudah pasti bukan bilangan terbesar. Kemungkinannya tinggal bilangan b
+atau c. Apabila bilangan b lebih besar dari c, maka b merupakan bilangan
+terbesar. Sebaliknya apabila bilangan b tidak lebih besar dari c, maka
+bilangan c merupakan yang terbesar.
+4. Selesai.
+
+Sebagai contoh lain:
+
+CONTOH:
+menemukan bilangan terbesar dalam sebuah deretan angka (tak berurut). Solusinya membutuhkan pemeriksaan setiap angka dalam deret, tapi hanya sekali. 
+Penyelesaian:
+Input 		: Deret angka (list)
+Output       : Angka terbesar dari elemen list
+Proses;
+1. Asumsikan angka pertama pada list adalah terbesar.
+2. lakukan iterasi untuk mengecek angka selanjutnya.
+3. apabila angka ke-n > ke-(n+1), maka angka terbesar adalah ke-n. apabila angka ke-n < ke-(n+1), maka angka terbesar adalah ke-(n+1). 
+4. Bila tidak ada lagi angka tersisa pada deret, angka terbesar sekarang adalah angka terbesar.
+
+**2. Flowchart**
+* Flowchart adalah representasi visual dari algoritma dalam bentuk diagram yang terdiri dari simbol-simbol geometris seperti kotak, panah, dan berlian.
+* Setiap simbol mewakili langkah-langkah atau keputusan dalam algoritma, dan panah menghubungkannya untuk menunjukkan alur eksekusi.
+* Flowchart membantu pengguna untuk secara visual melihat aliran logika dan cabang keputusan dalam algoritma.
+
+Berikut gambar
+![image](https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/84f45787-4b8e-45d6-8586-c2eaef7fef72)
+
+Aturan dalam membuat Flowchart:
+* Flowchart digambarkan dari halaman atas ke bawah dan dari kiri kekanan.
+* Aktivitas yang digambarkan harus didefinisikan secara hati-hati dan definisi ini harus dapat di mengerti oleh pembacanya
+* Kapan aktivitas dimulai dan berakhir harus ditentukan secara jelas.
+* Setiap langkah dari aktivitas harus diuraikan dengan menggunakan deskripsi kata kerja
+* Setiap langkah dari aktivitas harus berada pada urutan yang benar.
+*  Lingkup dan range dari aktifitas yang sedang digambarkan harusditelusuri dengan hati-hati. Percabangan-percabangan yang memotong aktivitas yang sedang digambarkan tidak perlu digambarkan pada flowchart yang sama. Simbol konektor harus digunakan dan percabangannya diletakan pada halaman yang terpisah atau hilangkan seluruhnya bila percabangannya tidak berkaitan dengan sistem.
+* Gunakan simbol-simbol flowchart yang standar.
+
+
+
+Contoh flowchart:
+1. FLowchart Berurutan:
+<img width="207" alt="image" src="https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/fe43f9a1-4f07-425e-be5b-49a5e75a1190">
+
+2. Flowchart Bercabang
+Dalam flowchart ini biasanya membutuhkan decision.
+![image](https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/ee6490fa-bafb-47a2-931e-2f5a8bda820b)
+![image](https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/67472304-251e-40c0-9948-b03314becd49)
+
+3. Flowchart Looping
+![image](https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/9f964d05-225d-4e4d-be44-09f4d0ac5715)
+![image](https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/a638898c-dc3c-4863-9acb-f6e84aa99406)
+
+
+![image](https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/eaf37493-3cdb-47f3-8cfb-aae041ce2f18)
+
+**3. Pseudocode**
+Pseudocode adalah sebuah metode penulisan menggunakan bahasa sederhana untuk mengekspresikan desain algoritma. Pseudocode bermanfaat untuk mempermudah manusia untuk memahami algoritma karena lebih mudah dipahami dibandingkan dengan bahasa pemrograman. Penulisan pseudocode tidak memiliki aturan pasti namun harus logis. Berikut saran untuk penulisan pseudocode:
+
+* Menggunakan huruf kapital untuk kode perintah (misalnya IF, ELSE, dan THEN)
+* Setiap pernyataan (statement) ditulis dalam satu baris
+* Menggunakan indentasi
+* Spesifik
+* Simpel
+
+Umumnya dalam penulisan pseudocode dibagi kedalam tiga bagian:
+1. Bagian Judul, umumnya pada bagian judul diawali dengan penulisan “PROGRAM” yang kemudian diikuti oleh nama algoritma.
+2. Bagian Deklarasi, bagian ini variabel yang dimiliki algoritma dideklarasikan. Variabel ini dapat beruba bilangat bulat, bilangan pecahan, karakter, boolean, dan lain sebagainya.
+3. Bagian Algoritma, yaitu bagian yang berisikan sekumpulan perintah algoritma. Perintah algoritma dapat berupa perulangan, kondisional ataupun runtutan.
+
+***
+ALGORITMA Mencari Nilai Maksimum
+1. Masukkan dua angka, Angka1 dan Angka2
+2. Jika Angka1 lebih besar dari Angka2, maka:
+     a. Maksimum adalah Angka1
+   Jika tidak, maka:
+     a. Maksimum adalah Angka2
+3. Tampilkan Maksimum
+4. Selesai
+***
+
+Pseudocode yang ditulis di dalam buku ini akan menyerupai (meniru) syntaxsyntax dalam bahasa Pascal atau C . Namun dibuat sesederhana mungkin sehingga
+tidak akan ada kesulitan bagi pembaca untuk memahami algoritma-algoritma dalam buku ini. Contoh algoritma menentukan bilangan terbesar dari tiga bilangan yang ditulis dalam bentuk pseudocode :
+<img width="266" alt="image" src="https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/a14f62e4-262f-42b3-89a7-28678ece4534">
+<img width="275" alt="image" src="https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/a92415ad-6347-44cd-bed4-6d4fd1d42956">
+
+
+
+
