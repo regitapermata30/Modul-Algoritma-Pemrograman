@@ -187,5 +187,16 @@ tidak akan ada kesulitan bagi pembaca untuk memahami algoritma-algoritma dalam b
 <img width="275" alt="image" src="https://github.com/regitapermata30/Modul-Algoritma-Pemrograman/assets/46920825/a92415ad-6347-44cd-bed4-6d4fd1d42956">
 
 
-
+Dalam sebuah algoritma langkah-langkah penyelesaian masalahnya dapat berupa
+struktur urut (sequence), struktur pemilihan (selection), dan struktur pengulangan
+(repetition).
+Ketiga jenis langkah tersebut membentuk konstrukti suatu algoritma.
+1) Struktur Urut (sequence)
+Struktur urut adalah suatu struktur program dimana setiap baris program akan dikerjakan secara urut dari atas ke bawah sesuai dengan urutan penulisannya.
+2) Struktur Pemilihan (selection) atau Penyeleksian Kondisi Pada struktur pemilihan tidak setiap baris program akan dikerjakan. Baris
+program yang dikerjakan hanya yang memenuhi syarat saja. Struktur pemilihan adalah struktur program yang melakukan proses pengujian untuk mengambil
+suatu keputusan apakah suatu baris atau blok instruksi akan diproses atau tidak. Pengujian kondisi ini dilakukan untuk memilih salah satu dari beberapa
+alternatif yang tersedia.
+3) Pengulangan
+Salah satu kelebihan komputer adalah kemampuannya untuk melakukan melakukan pekerjaan yang sama berulang kali tanpa mengenal lelah. Struktur pengulangan disebut kalang (loop), dan bagian algoritma yang diulang (aksi) dinamakan badan kalang (loop body).
 
